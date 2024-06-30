@@ -1,0 +1,147 @@
+.display {
+    display: flex;
+
+    margin : 60px 170px;
+    
+    background-color: #fff;
+  }
+  
+  .display-left {
+    display: flex;
+    gap: 17px;
+  }
+  
+  .image-list {
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 20px;
+    gap: 16px;
+  }
+  
+  .image-list img {
+
+    height: 170px;
+    cursor: pointer;
+border-radius: 17px;
+    padding: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .image-list img:hover {
+    border-color: #333;
+  }
+  
+  .display-img {
+    width: 586px;
+    height: 700px;
+    
+  }
+  
+  .display-img img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    
+    border-radius: 17px;
+  }
+  
+  .display-right {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .display-right h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  
+  .stars {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .stars img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .stars p {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .right-prices {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .new_price {
+    font-size: 18px;
+    color: #e74c3c;
+    margin-right: 10px;
+    text-decoration: line-through;
+  }
+  
+  .old_price {
+    font-size: 22px;
+    color: #2ecc71;
+  }
+  
+  .right-description {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .right-size {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .right-size div {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .right-size div:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .right-button {
+    margin-bottom: 20px;
+  }
+  
+  .right-button button {
+    font-size: 16px;
+    
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .right-button button:hover {
+    background-color: #2980b9;
+  }
+  
+  .right-category {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .right-category span {
+    font-weight: bold;
+  }
+  

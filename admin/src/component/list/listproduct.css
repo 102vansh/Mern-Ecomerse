@@ -1,0 +1,75 @@
+.listproduct {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.listproduct h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.format-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.format-main p {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lisr-data {
+    border: 1px solid #ccc;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.item p {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.item span {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    text-decoration: line-through;
+    color: red;
+}
+
+.item button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.item button:hover {
+    background-color: #ff1a1a;
+}
+
+.item:hover {
+    background-color: #f9f9f9;
+}

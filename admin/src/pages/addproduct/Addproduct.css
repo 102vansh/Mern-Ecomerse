@@ -1,0 +1,92 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.addproduct {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addproitem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addproitem h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.addproitem input[type="text"],
+.addproitem select,
+.addproitem input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.addproprice {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.itemfield {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.itemfield p {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.addprocategory {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#file-input {
+    display: none;
+}
+
+.itemfield img {
+    width: 100%;
+    max-width: 150px;
+    cursor: pointer;
+}
+
+.addprobtn {
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #15133d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addprobtn:hover {
+    background-color: #16a085;
+}

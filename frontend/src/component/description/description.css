@@ -1,0 +1,44 @@
+.descriptionbox {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 7px;
+  }
+  
+  .navigator {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    padding: 10px 20px;
+    
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .box:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .box.active {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .fade {
+    opacity: 0.6;
+  }
+  
+  .descriptionbox p {
+    margin-top: 20px;
+    color: #555;
+    line-height: 1.5;
+    border: 1ps solid black;
+  }
+  

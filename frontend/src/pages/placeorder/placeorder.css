@@ -1,0 +1,89 @@
+.placeorder{
+    display: flex;
+    
+    align-items: start;
+    margin-top: 100px;
+    justify-content: space-between;
+    
+}
+.placeorder-left{
+    width: 100%;
+    max-width: max(30%,500px);
+    margin-left: 25px;
+
+}
+.placeorder-left .title{
+font-size: 30px;
+font-weight: 600;
+margin-bottom:50px ;
+}
+.placeorder-left input{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline-color: tomato ;
+}
+.placeorder-left .multi-field{
+    display: flex;
+    gap: 10px;
+    
+}
+.placeorder-right {
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(163, 159, 159, 0.1);
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .total {
+    text-align: center;
+  }
+  
+  .total h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .total .details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .total .details p {
+    margin: 0;
+  }
+  
+  .total .details b {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .total hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  
+  .total button {
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .total button:hover {
+    background-color: #0056b3;
+  }
+  
